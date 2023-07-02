@@ -1,0 +1,169 @@
+.thumbnail-1{
+    width: 100%;
+  
+}
+.caption{
+    display: block;
+    font-family: roboto;
+    font-weight: 500;
+    margin-top: 12px;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    width: 200px;
+    
+
+}
+
+.icon-1{
+    
+    display:inline-block;
+    border-radius: 36px;
+    margin-top: 12px;
+    width: 40px;
+    
+    
+    
+}
+
+.channel-name{
+   color: #606060;
+    font-weight: 400;
+    display: inline-block;
+    font-size: 12px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.stats{
+    
+    color: #606060;
+    font-weight: 400;
+    display: block;
+    font-size: 12px;
+    
+}
+
+
+
+
+.ver-1{
+    width: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ver-2{
+    width: 200px;
+    display:inline-block ;
+    vertical-align: top;
+    
+}
+
+
+.pic-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 250px;
+}
+
+.thumbnail-row {
+    margin-bottom: -5 px;
+    position: relative;
+  }
+
+.video-grid{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ column-gap: 16px;
+ row-gap: 40px;
+ padding-left: 30px;
+}
+
+@media(max-width: 930px){
+  .video-grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
+@media (min-width: 931px) and (max-width: 1100px) {
+  .video-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+@media(min-width: 1500px) {
+  .video-grid{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  
+}
+
+
+@media(max-width: 700px){
+  .video-grid{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+.v-time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 10px;
+    right: 2px;
+    padding: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.right-section {
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+  
+  .upload-icon {
+    height: 24px;
+  }
+  
+  .youtube-apps-icon {
+    height: 24px;
+  }
+  
+  .notifications-icon {
+    height: 24px;
+  }
+  
+  .notifications-icon-container {
+    position: relative;
+  }
+  
+  .notifications-count {
+    position: absolute;
+    top: -2px;
+    right: -5px;
+    background-color: rgb(200, 0, 0);
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-radius: 10px;
+  }
+  
+  .current-user-picture {
+    height: 32px;
+    border-radius: 16px;
+  }
